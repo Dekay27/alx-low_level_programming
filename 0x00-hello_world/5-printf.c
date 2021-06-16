@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-/** main - appending
+/** 
+ * main - appending
  * Description: add a piece of sentence
  * Return: 0
  */
