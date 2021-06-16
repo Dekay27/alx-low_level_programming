@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-/** 
+/**
  * main - appending
- * Description: add a piece of sentence
+ * Description: with proper grammar, but the outcome is a piece of art
  * Return: 0
  */
 int main(void)
