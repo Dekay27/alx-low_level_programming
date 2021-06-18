@@ -8,6 +8,7 @@
 int main(void)
 {
 	int i;
+
 	for (i = 58; i < 58; i++)
 		putchar(i);
 	for (i = 'a'; i <= 'f'; i++)
