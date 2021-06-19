@@ -1,19 +1,25 @@
 #include <stdio.h>
 
 /**
- *  main - prints out alphabets in lowercase
+ *  main - prints out the last digit et al
  *  Description:
  *  Return: 0
  */
 int main(void)
 {
-	char a = 'a';
+	int n;
+	int lastDigit;
 
-	while (a <= 'z')
-	{
-		putchar(a);
-		a++;
-	}
-	putchar('\n');
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+
+	lastDigit = n % 10;
+	printf("Last digit of %i is %i and is ", n, lastDigit);
+	if (lastDigit > 5)
+		printf("greater than 5\n");
+	else if (lastDigit == 0)
+		printf("0\n");
+	else
+		printf("less than 6 and not 0\n");
 	return (0);
 }
