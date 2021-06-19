@@ -15,7 +15,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	lastDigit = n % 10;
-	printf("Last digit of %i is %i and is ", n, lastDigit);
+	printf("%i ", n);
 	if (lastDigit > 0)
 		printf("is positive\n");
 	else if (lastDigit == 0)
