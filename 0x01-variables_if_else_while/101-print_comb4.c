@@ -10,11 +10,11 @@ int main(void)
 	int j;
 	int k;
 
-	for (i = 48; j < 58; j++)
+	for (i = '0'; i < '9'; i++)
 	{
-		for (j = i; j < 58; j++)
+		for (j = i; j < '9'; j++)
 		{
-			for (k = j; k < 58; k++)
+			for (k = j; k < '9'; k++)
 			{
 				if (i == j || j == k || i == k)
 				{
@@ -24,7 +24,7 @@ int main(void)
 				putchar(j);
 				putchar(k);
 
-				if (i == 55 && j == 56 && k == 57)
+				if (i == '7' && j == '8' && k == '9')
 				{
 					break;
 				}
