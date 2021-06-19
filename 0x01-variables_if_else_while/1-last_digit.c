@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <time.h>
 
 /**
  *  main - prints out the last digit et al
