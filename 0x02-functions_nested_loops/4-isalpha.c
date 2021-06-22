@@ -1,4 +1,4 @@
-#include "holberton.c"
+#include "holberton.h"
 /**
  * _isalpha - test if c is a letter
  * @c: test integer
