@@ -1,6 +1,7 @@
 #include "holberton.h"
 /**
  * _islower - chaecker for whether lowercase or not
+ * @c: test integer
  * Return: 0 or 1
  */
 int _islower(int c)
