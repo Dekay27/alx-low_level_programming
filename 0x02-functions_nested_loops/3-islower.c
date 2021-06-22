@@ -1,5 +1,4 @@
-#include "holberton.c"
-
+#include "holberton.h"
 /**
  * _islower - chaecker for whether lowercase or not
  * Return: 0 or 1
